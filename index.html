@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOZY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img data-aos="zoom-in"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KxlKUQdXReMX8fHCWVThFjHtmUnIvjpXxQ&s"
+                width="100" alt=""></a>
+        <nav>
+            <a href="news.html">Новости</a>
+            <a href="recipes.html">Рецепты</a>
+            <a href="story.html">Истории и отзывы</a>
+            <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться с нами</a>
+        </nav>
+
+        <div class="form-container animate">
+            <P>Будьте в курсе новостей и акций</P>
+            <form class="subscribe form" id="subscribeForm">
+                <input type="email" id="emailInput" placeholder="Введите ваш Email">
+                <button type="submit">Подписаться</button>
+            </form>
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+
+       
+    </header>
+    <main>
+
+
+
+        <div class="intro">
+            <div data-aos="fade-down-left" class="content">
+                <h3>Забронируй прямо сейчас</h3>
+                <h1>Найди идеальный бар - легко и быстро</h1>
+            </div>
+            <form class="search-form-modern">
+                <div class="input-group">
+                    <input type="text" placeholder="Ваш город " name="city" required />
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Название заведения " name="query" />
+                </div>
+                <button type="submit">SEARCH</button>
+            </form>
+            <div class="map"><iframe width="100%" height="400" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps?q=51.1321,71.4306&z=12&output=embed" allowfullscreen>
+                </iframe></div>
+
+
+
+
+            <div class="selector">
+                <h3>The Boozy selections</h3>
+            </div>
+            <div class="content1">
+                <div class="block">
+                    <img src="https://c.tfstatic.com/w_628,h_456,c_fill,g_auto:subject,q_auto,f_auto/tf-product/banners/yusfxoii6iua1tynovx4"
+                        width="195" alt="">
+                    <a href="https://yandex.kz/maps/ru/discovery/podborka_bar-pab_astana-163/?ll=71.433418%2C51.127800&z=12">Топ-баров по мнению пользователей</a>
+                </div>
+                <div class="block">
+                    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_500,h_500,c_fill,g_auto:subject,q_auto,f_auto/restaurant/f61c5bf2-5f40-4ed6-92c8-b4a6da6c2352/244679a0-e3dc-4688-8dc1-d94fdb2e580c.jpg"
+                        width='170' alt="">
+                    <a href="https://www.tripadvisor.ru/Restaurants-g293944-c37-Astana_Akmola_Province.html">Для любителей стейков</a>
+                </div>
+                <div class="block">
+                    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_500,h_500,c_fill,g_auto:subject,q_auto,f_auto/restaurant/ab1d05ec-df4d-4fcb-9edf-da4f9b2383c9/f89caabb-13cf-4533-8fef-de0bd296a279.jpg"
+                        width="170" alt="">
+                    <a href="https://2gis.kz/astana/search/%D0%9A%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D0%B8%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5">Утро начинается с кофе</a>
+                </div>
+                <div class="block">
+                    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_500,h_500,c_fill,g_auto:subject,q_auto,f_auto/restaurant/5d3eb558-0872-4432-b49a-507cc1e1fb38/d159dcb0-40bf-4280-a7ea-3b786602e24b.jpg"
+                        width="170" alt="">
+                    <a href="https://www.tripadvisor.ru/Restaurants-g293944-c27-Astana_Akmola_Province.html">Почувствуй вкус Японии </a>
+                </div>
+                <div class="block">
+                    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_500,h_500,c_fill,g_auto:subject,q_auto,f_auto/restaurant/3dffae3f-625a-433a-b5d1-9c49212b38ad/dcebb9a5-6b20-4b05-a49d-2c500a96bb32.png"
+                        width="170" alt="">
+                    <a href="https://sxodim.com/astana/tag/frantsuzskaya-kuhnya">Изыски Франции</a>
+                </div>
+                <div class="block">
+                    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_500,h_500,c_fill,g_auto:subject,q_auto,f_auto/restaurant/e769b319-e30b-418d-bd1f-a2cebf32f449/7312c1e0-cce0-4e0f-95b0-675d02f8b564.jpg"
+                        width="170" alt="">
+                    <a href="https://www.tripadvisor.ru/Attractions-g293944-Activities-c20-Astana_Akmola_Province.html">Там где весело</a>
+                </div>
+            </div>
+
+            <section class="how-it-works">
+                <h2 class="title"> Как это работает </h2>
+                <div class="steps">
+                    <div class="step">
+                        <h3>1. Поиск</h3>
+                        <p>Укажите город и название заведения</p>
+                    </div>
+                    <div class="step">
+                        <h3>2. Выбор </h3>
+                        <p>Сравните бары , меню и рейтинги-выберите лучшее</p>
+                    </div>
+                    <div class="step">
+                        <h3>3. Бронирование </h3>
+                        <p>Забронируйте столик онлайн. Быстро и удобно</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <div id="products" class="splide" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <h2>Лучшее рядом</h2>
+                    <br>
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="product">
+                                <h2>Dark Side bar</h2>
+                                <a href="https://darkside.bar/book">
+                                    <img src="https://lh3.googleusercontent.com/p/AF1QipMV1nLMKyznttJ40oLlg-cQGocPN4OUGYwxovvQ=s1360-w1360-h1020-rw"
+                                        width="300" alt="">
+                            </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="product">
+                                <h2>Malena bar</h2>
+                                <a href="https://goodproject.kz/">
+                                    <img src="https://lh3.googleusercontent.com/p/AF1QipPQcvh_Ia_dJ8XcQrmDnj-ORD2e3OCl05wY7q-e=s1360-w1360-h1020-rw"
+                                        width="240" height="230" alt="">
+                            </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="product">
+                                <h2>Janym Soul</h2>
+                                <a href="https://access.clientomer.ru/feedback/254100/?utm_source=googlebusiness">
+                                    <img src="https://lh3.googleusercontent.com/p/AF1QipN7Z7rQdiSmOwh3JlPuQzE3gAKA23EfwdbPsT8P=s1360-w1360-h1020-rw"
+                                        width="300" height="220" alt="">
+                            </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="product">
+                                <h2>Brewery</h2>
+                                <a href="https://brewery.kz/">
+                                    <img src="https://lh3.googleusercontent.com/p/AF1QipPTbYKZEq4HbtvA8ICKCX40ExYvuxub_5CcvLWa=s1360-w1360-h1020-rw"
+                                        width="300" alt="">
+                            </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="product">
+                                <h2>Golpas</h2>
+                                <a href="https://golpas.cafe/ru">
+                                    <img src="https://lh3.googleusercontent.com/p/AF1QipPcilUuIeelapRRSNUC0SkiQniZhGdWD8FNfbL9=s1360-w1360-h1020-rw"
+                                        width="300" height="220" alt="">
+                            </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>About Boozy</h2>
+                <h3>Boozy — ведущая онлайн-платформа для бронирования баров и открытия барной культуры в Казахстане.
+                </h3>
+                <h3>Открой для себя лучшие бары в Астане, Алматы, Шымкенте, Атырау и других городах с помощью удобного
+                    поиска, фильтров по атмосфере, напиткам и формату вечера.</h3>
+                <h3>Ищи свободные места в барах в любое время, открывай для себя коктейли и сравнивай заведения с
+                    помощью рейтингов и отзывов.
+                    С Boozy ты легко найдешь идеальное место — будь то свидание, встреча с друзьями или просто вечер для
+                    себя.</h3>
+                <h3>Каждый день ты можешь получать эксклюзивные предложения, акции и бонусы за бронирования, которые
+                    можно использовать в любимых барах.</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Вы владелец заведения?</h2>
+            <div class="owner">
+                <img src="https://c.tfstatic.com/w_1600,h_1016,c_fill,g_auto:subject,q_auto,f_auto/w_400/tf-product/ContactPage/contactpage_background.png"
+                    width="300" alt="">
+                <div class="owner-content">
+                    <h3>Зарегистрируйте своё заведение</h3>
+                    <p>Расскажите нам больше о вашем ресторане/баре и мы свяжемся с вами как можно скорее</p>
+                    <button><a href="">Связаться</a></button>
+                </div>
+            </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+
+    <script>
+        new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            breakpoints: {
+                1200: {
+                    perPage: 2,
+                },
+                768: {
+                    perPage: 1,
+                },
+            },
+        }).mount()
+    </script>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="index.html">Главная</a>
+                <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться</a>
+                <a href="pdf/boozyl.pdf">Политика конфиденциальности</a>
+            </div>
+            <div class="footer-copy">"© 2025 Boozy. Все права защищены.</div>
+            <div class="foottext"><h6>Номер для связи</h6></div>
+            <div class="phone-block">
+                <a href="tel-123456789">+123456789</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>

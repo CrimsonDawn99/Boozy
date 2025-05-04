@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSSnews.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<header>
+    <a href="index.html"><img data-aos="zoom-in"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KxlKUQdXReMX8fHCWVThFjHtmUnIvjpXxQ&s"
+            width="100" alt=""></a>
+    <nav>
+        <a href="news.html">Новости</a>
+        <a href="recipes.html">Рецепты</a>
+        <a href="story.html">Истории и отзывы</a>
+        <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться с нами</a>
+    </nav>
+
+    <div class="form-container animate">
+        <P>Будьте в курсе новостей и акций</P>
+        <form class="subscribe form" id="subscribeForm">
+            <input type="email" id="emailInput" placeholder="Введите ваш Email">
+            <button type="submit">Подписаться</button>
+        </form>
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    
+</header>
+
+<body>
+    <main>
+
+
+        <div class="text1">
+            <h1>Главные новости барной индустрии и не только</h1>
+        </div>
+
+        <div class="content2">
+            <h1>Фестивали и развлечения</h1>
+            <div class="news">
+                <div id="products" class="splide" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="block">
+                                    <img src="img/attract.jpg" width="195" alt="">
+                                    <a href="https://www.instagram.com/astanapark/">Сезон аттракционов в столице</a>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="block">
+                                    <img src="img/coffee.jpg" width="195" alt="">
+                                    <a href="https://qazaqstancoffeefestival.kz/">Казахстанский Фестиваль Кофе 2025</a>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="block">
+                                    <img src="img/comic.png" width="195" alt="">
+                                    <a href="https://comicconastana.kz/">COMIC CON ASTANA 2025</a>
+                            <li class="splide__slide">
+                                <div class="block">
+                                    <img src="img/fest.png" width="195" alt="">
+                                    <a href="https://www.instagram.com/satisfaction_astana/">SATISFACTION музыкальный
+                                        фестиваль в Астане</a>
+                                </div>
+                    </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="news-section">
+                <h2>Истории из первых уст</h2>
+                <div class="news-block">
+                    <img src="img/im.png" alt="Бармен">
+                    <div>
+                        <h3>Новый ресторан I’M открыли в Астане</h3>
+                        <p>Основатель бренда I’M Кайрат Боранбаев и генеральный директор сети ресторанов Асет Машанов
+                            рассказали о том, как в Казахстане развивается сеть ресторанов быстрого обслуживания.</p>
+                        <a
+                            href="https://forbes.kz/articles/kazahstanskiy-brend-i-mirovye-traditsii-kachestva-novyy-restoran-im-otkryli-v-astane-f03194">Читать
+                            далее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="news-section">
+                <h2>Новинки меню</h2>
+                <div class="news-block">
+                    <img src="img/salters.jpg" alt="Новое меню">
+                    <div>
+                        <h3>Добро пожаловать в галерею гастрономических шедевров - SALTER'S.</h3>
+                        <p> Территория изощренных вкусов откроется в отеле Sheraton Nur-Sultan 20 мая 2022 года.</p>
+                        <a
+                            href="https://www.tripadvisor.ru/Restaurant_Review-g293944-d20138403-Reviews-Salter_s-Astana_Akmola_Province.html?m=69573">
+                            Посмотреть меню</a>
+                    </div>
+                </div>
+            </section>
+            <section class="news-section">
+                <h2>Скидки и предложения</h2>
+                <div class="news-block">
+                    <img src="img/barcode.png" alt="Скидки">
+                    <div>
+                        <h3>50% на всё меню по пятницам в BarCode</h3>
+                        <p>Каждую пятницу до конца месяца — наслаждайтесь лучшими блюдами и напитками за полцены!</p>
+                        <a href="https://www.instagram.com/barcode_almaty/">Узнать больше</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <br><br><br>
+            <div class="know">
+                <h1>Интересеные факты</h1>
+            </div>
+            <br><br>
+
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Мартини появился в Италии в 1863 году и стал символом аристократии благодаря Джеймсу Бонду.</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Первые коктейли создавались как лекарство. Их использовали для маскировки вкуса медицинских
+                        настоек и настоек на травах.</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Название «виски» происходит от гэльского «uisce beatha», что означает «вода жизни».</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Самый популярный коктейль в мире — Маргарита, особенно в США и Мексике.</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Пиво — один из древнейших напитков в мире. Его варили в Месопотамии ещё 6 000 лет назад.</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Белый ром раньше считался пиратским напитком, так как его часто брали в рейсы из-за длительного
+                        хранения.</p>
+                </div>
+            </section>
+            <br><br>
+            <section class="drink-fact">
+                <div class="fact-text">
+                    <h3>Знаешь ли ты?</h3>
+                    <p>Кофе стал популярен в Европе благодаря монастырям. Монахи использовали его, чтобы не засыпать во
+                        время молитв.</p>
+                </div>
+            </section>
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+        new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            breakpoints: {
+                1200: {
+                    perPage: 2,
+                },
+                768: {
+                    perPage: 1,
+                },
+            },
+        }).mount()
+    </script>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="index.html">Главная</a>
+                <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться</a>
+                <a href="">Политика конфиденциальности</a>
+            </div>
+            <div class="footer-copy">"© 2025 Boozy. Все права защищены.</div>
+            <div class="foottext"><h6>Номер для связи</h6></div>
+            <div class="phone-block">
+                <a href="tel-123456789">+123456789</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+
+
+
+
+</html>

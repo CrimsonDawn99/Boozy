@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img data-aos="zoom-in"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KxlKUQdXReMX8fHCWVThFjHtmUnIvjpXxQ&s"
+                width="100" alt=""></a>
+        <nav>
+            <a href="news.html">Новости</a>
+            <a href="recipes.html">Рецепты</a>
+            <a href="story.html">Истории и отзывы</a>
+            <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться с нами</a>
+        </nav>
+
+        <div class="form-container animate">
+            <P>Будьте в курсе новостей и акций</P>
+            <form class="subscribe form" id="subscribeForm">
+                <input type="email" id="emailInput" placeholder="Введите ваш Email">
+                <button type="submit">Подписаться</button>
+            </form>
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+
+
+    </header>
+
+    <body>
+
+        <section class="guest-stories">
+            <h2 class="stories-title">Истории из бара</h2>
+
+            <details class="story-card">
+                <summary> Алина, 26 — "Мой первый коктейль в жизни"</summary>
+                <p>Я зашла в бар случайно — просто спрятаться от дождя. Бармен улыбнулся и предложил мне что-то
+                    "нежное". Это был "Космополитен". С тех пор я всегда начинаю вечер именно с него.</p>
+            </details>
+
+            <details class="story-card">
+                <summary> Тимур, 31 — "Я встретил её возле стойки..."</summary>
+                <p>Я заказал Old Fashioned, она — текилу. Мы рассмеялись, когда бармен перепутал заказы. Сейчас мы уже
+                    год вместе. Всё началось с неправильного коктейля.</p>
+            </details>
+
+            <details class="story-card">
+                <summary> Аноним — "Как бар спас меня от неловкой встречи"</summary>
+                <p>Я шёл на свидание, но девушка не пришла. Бармен заметил это и просто подмигнул, налив мне бесплатный
+                    шот. Мы поболтали, и я ушёл с хорошим настроением. Люди делают атмосферу.</p>
+            </details>
+        </section>
+
+        <section class="reviews">
+            <h2 class="reviews-title">Отзывы посетителей</h2>
+            <div class="review-list">
+                <div class="review-card">
+                    <img src="https://i.pravatar.cc/100?img=5" alt="Пользователь">
+                    <h3>Асель</h3>
+                    <p>«Очень понравились рецепты! Лонг Айленд получился как в баре. Дизайн сайта приятный и простой.»
+                    </p>
+                    <div class="stars">★★★★★</div>
+                </div>
+
+                <div class="review-card">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="Пользователь">
+                    <h3>Михаил</h3>
+                    <p>«Добавьте побольше безалкогольных коктейлей. А так — просто супер. Спасибо!»</p>
+                    <div class="stars">★★★★☆</div>
+                </div>
+
+                <div class="review-card">
+                    <img src="img/laura.png" alt="Пользователь">
+                    <h3>Лаура</h3>
+                    <p>«Теперь всегда проверяю Boozy перед вечеринками. Всё просто, понятно и красиво!»</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <a href="index.html">Главная</a>
+                    <a href="https://wa.me/77771263672" target="_blank" class="whatsupp-button" >Связаться</a>
+                    <a href="">Политика конфиденциальности</a>
+                </div>
+                <div class="foottext">
+                    <h6>Номер для связи</h6>
+                </div>
+                <div class="phone-block">
+                    <a href="tel-123456789">+123456789</a>
+                </div>
+                <div class="footer-copy">"© 2025 Boozy. Все права защищены.</div>
+            </div>
+        </footer>
+    </body>
+
+
+</html>
